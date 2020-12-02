@@ -1,0 +1,89 @@
+/* ======================
+	CSS CODE STRUCTURE
+ ========================
+ 1. GLOBAL Section
+ 2. TYPOGRAPHY Section
+ 3. HEADER Section
+ 4. BANNER Section
+ 5. ARTICLE Section
+ 6. FEATURES Section
+ 7. PORTFOLIO Section
+ 8. CONNACT Section
+ 9. FOTTER Section
+ 10.RETOUCH Section
+
+ ========================
+ ======================== */ 
+
+/* 1. GLOBAL Section */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+body{ font-family: 'PT Serif', serif; }
+
+
+/********************/
+.img{  }
+.ul{  }
+.li {  }
+.a {  }
+p{ color:#878c90; }
+h1 { color:#878c90; }
+span { display: block; }
+/* _______________*/ 
+
+header{padding: 15px 0px;/* align-items: center; */}
+.container {width: 1200px;margin: auto;}
+.flex{display: flex;flex-wrap: wrap;align-items: center;}
+.logo{max-width: 20%;flex-basis: 20%;}
+.logo a{display: block;}
+.logo img {}
+nav{max-width: 80%;flex-basis: 80%;}
+nav ul {display: flex;list-style: none;justify-content: flex-end;}
+nav ul li {}
+nav ul  a {text-decoration: none;font-size: 20px;padding-left: 27px;font-weight: 500;text-transform: uppercase;color: #333;}
+.col-1{  }
+/* _______________*/ 
+
+.banner { padding-bottom: 75px; }
+.banner img { width: 100%; }
+
+/* _______________*/ 
+.article {padding-bottom: 75px;}
+.article span {  }
+.article h1{font-size: 40px;font-weight: 500;/* margin: 0px 0px; */}
+.article p {line-height: 1.7;}
+.article a {  }
+.article img {  }
+
+.article a, span {
+    				text-transform: uppercase;
+    				text-decoration: none;
+    				color: #c1b7b7;
+    				font-size: 18px;
+    				padding: 30px 0px;
+    				}
+
+.col-6{width: 50%;padding-right: 50px}
+
+/* _______________*/ 
+
+
+.post {  }
+
+/* _______________*/ 
+
+
+footer {width: 100%;min-height: 90px;background-color: #f6f9f9;}
+footer .linkpart {width: 50%;padding-top: 20px;}
+footer .linkpart ul {display: flex;list-style: none;}
+footer .linkpart ul li  {font-size: 20px;color: #333;padding-right: 35px;}
+footer .linkpart ul a {text-decoration: none;}
+
+
+footer .social-part {width: 50%;padding-top: 20px;}
+footer .social-part ul {list-style: none;display: flex;justify-content: flex-end;}
+footer .social-part ul li  {font-size: 28px;color: #333;padding: 10px 15px;}
+footer .social-part ul a {  }
+
+/* _______________*/ 
